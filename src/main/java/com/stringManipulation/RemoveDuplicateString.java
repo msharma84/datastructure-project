@@ -1,4 +1,4 @@
-package stringManipulation;
+package com.stringManipulation;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -16,6 +16,6 @@ public class RemoveDuplicateString {
                 result.append(ch);
             }
         }
-        System.out.println(result.toString());
+        System.out.println(result);
     }
 }

@@ -1,4 +1,4 @@
-package stringManipulation;
+package com.stringManipulation;
 
 public class FindNumberOfWords {
 

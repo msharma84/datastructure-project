@@ -1,4 +1,4 @@
-package stringManipulation;
+package com.stringManipulation;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package leetcode;
+package com.stringManipulation;
 
 /**
  *  Problem 14
