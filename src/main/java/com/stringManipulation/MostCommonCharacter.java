@@ -1,6 +1,5 @@
 package com.stringManipulation;
 
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -18,10 +17,8 @@ public class MostCommonCharacter {
        Optional<Map.Entry<Character,Integer>> mostCommonCharacter = characterIntegerMap.entrySet()
                 .stream().max(Map.Entry.comparingByValue());
 
-        if(mostCommonCharacter.isPresent()){
-            System.out.println("Highest occurrence of character - "
-                            + mostCommonCharacter.get().getKey()
-                            + " with occurrence count - "+mostCommonCharacter.get().getValue());
-        }
+        mostCommonCharacter.ifPresent(characterIntegerEntry -> System.out.println("Highest occurrence of character - "
+                + characterIntegerEntry.getKey()
+                + " with occurrence count - " + characterIntegerEntry.getValue()));
     }
 }

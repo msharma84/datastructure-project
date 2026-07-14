@@ -13,7 +13,7 @@ public class ValidEmail {
     }
 
     private static boolean isValidEmail(String s){
-        return  (s.contains("@") && s.contains(".")) ? true : false;
+        return s.contains("@") && s.contains(".");
     }
 
     private static boolean isValidEmailUsingPattern(String s){

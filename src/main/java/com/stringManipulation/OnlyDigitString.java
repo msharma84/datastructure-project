@@ -22,6 +22,6 @@ public class OnlyDigitString {
                 j++;
             }
         }
-        return (length == j) ? true :  false;
+        return length == j;
     }
 }

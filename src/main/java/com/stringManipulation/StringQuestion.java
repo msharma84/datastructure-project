@@ -17,9 +17,9 @@ public class StringQuestion {
         for(String s1 : str){
             if(isNumeric(s1)){
                StringBuilder newSb = new StringBuilder(s1);
-               sb.append(newSb.reverse()+" ");
+               sb.append(newSb.reverse()).append(" ");
             }else {
-                sb.append(s1 + " ");
+                sb.append(s1).append(" ");
             }
         }
         return sb.toString();
