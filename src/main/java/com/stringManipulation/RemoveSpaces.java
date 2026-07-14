@@ -1,6 +1,5 @@
 package com.stringManipulation;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 public class RemoveSpaces {
@@ -17,6 +16,6 @@ public class RemoveSpaces {
             if (!Objects.equals(s, ""))
                 sb.append(s).append(" ");
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }
