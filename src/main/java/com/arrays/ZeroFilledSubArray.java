@@ -1,4 +1,4 @@
-package interview;
+package com.arrays;
 
 public class ZeroFilledSubArray {
 

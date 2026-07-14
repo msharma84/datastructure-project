@@ -1,6 +1,6 @@
 // Java program to split an array
 // into two equal sum subarrays
-package arrays;
+package com.arrays;
 
 public class Arrays1 {
 

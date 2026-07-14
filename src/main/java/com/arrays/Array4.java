@@ -1,4 +1,4 @@
-package arrays;
+package com.arrays;
 
 import java.util.Arrays;
 
@@ -14,7 +14,7 @@ public class Array4 {
         int right =0;
         int temp = 0;
 
-        // Bekar hai yeh portion
+        // bekar hai yeh portion
         for(int i = 0; i < length; i++){
             if(arr[left] >= 0 && arr[right] > 0){
                 temp = arr[left];

@@ -1,4 +1,4 @@
-package arrays;
+package com.arrays;
 
 import java.util.Arrays;
 
@@ -27,9 +27,9 @@ public class ArrayRotation {
             finalArray[i] = rotate[j];
             j++;
         }
-        //System.out.println(Arrays.toString(arr));
-        //System.out.println(Arrays.toString(rotate));
-        //System.out.println(Arrays.toString(finalArray));
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(rotate));
+        System.out.println(Arrays.toString(finalArray));
 
         // Optimize
         int [] arr1 = {1,2,3,4,5,6,7,8};

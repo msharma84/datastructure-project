@@ -1,5 +1,5 @@
 // Check if subarray with given product exists in an array
-package arrays;
+package com.arrays;
 
 public class Arrays2 {
 

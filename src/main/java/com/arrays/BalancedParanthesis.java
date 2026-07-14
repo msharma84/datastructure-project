@@ -1,4 +1,4 @@
-package interview;
+package com.arrays;
 
 import java.util.Stack;
 
