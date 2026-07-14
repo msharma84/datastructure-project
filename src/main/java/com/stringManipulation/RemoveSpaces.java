@@ -1,6 +1,7 @@
-package stringManipulation;
+package com.stringManipulation;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class RemoveSpaces {
 
@@ -12,10 +13,9 @@ public class RemoveSpaces {
 
         String [] subStr = str.split(" ");
         StringBuilder sb = new StringBuilder();
-        for(int i =0; i < subStr.length; i++){
-            if(subStr[i] != ""){
-               sb.append(subStr[i] + " ");
-            }
+        for (String s : subStr) {
+            if (!Objects.equals(s, ""))
+                sb.append(s).append(" ");
         }
         System.out.println(sb.toString());
     }
