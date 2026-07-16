@@ -4,7 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *  Problem 1
+ *  Given an array arr[] of n integers and a target value,
+ *  check if there exists a pair whose sum equals the target.
+ *  you must return the indices of the two numbers that add up to the target.
+ *
+ *  Input: arr[] = [0, -1, 2, -3, 1], target = -2
+ *  Time Complexity: because the array is traversed only once, and HashMap lookups take average time.
+ *  Space Complexity: to store elements in the HashMap
  * */
 public class TwoSumProblem {
 
