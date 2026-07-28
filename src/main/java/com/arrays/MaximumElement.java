@@ -25,6 +25,7 @@ public class MaximumElement {
             return -1;
         }
 
+        // hoping the maximum element is the starting index value
         int max = arr[0];
         for(int i =1; i < len; i++){
             if(max <= arr[i])

@@ -21,13 +21,17 @@ public class ReverseArray {
 		printArray(arr);
 	}
 
+	// Using two pointers approach
 	static void reverseArray(int arr[]) {
 
 		int start = 0;
 		int len = arr.length - 1;
+
+		// temp variable for swapping purpose
 		int temp;
 
 		while (start < len) {
+			// swapping the elements
 			temp = arr[start];
 			arr[start] = arr[len];
 			arr[len] = temp;
