@@ -23,6 +23,8 @@ public class RightShiftArrayByOnePos {
     private static int [] shiftPosition(int [] arr){
         int len =arr.length;
         int lastElement = arr[len-1];
+
+        // move from last index to first index
         for(int i = len-1; i > 0 ; i--){
             arr[i] = arr[i-1];
         }
