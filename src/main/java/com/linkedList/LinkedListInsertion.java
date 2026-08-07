@@ -1,4 +1,4 @@
-package com.nirvi.linkedList;
+package com.linkedList;
 
 public class LinkedListInsertion {
 

@@ -46,16 +46,16 @@ public class SumOfArray {
 		int[] nums = { 2, 7, 11, 15 };
 		int target = 9;
 		SumOfArray sum = new SumOfArray();
-		int[] results1 = sum.twoSumBruteForce(nums, target);
 
+		int[] results1 = sum.twoSumBruteForce(nums, target);
 		int[] results2 = sum.twoSumHashMap(nums, target);
 
-		for (int i = 0; i < results1.length; i++) {
-			System.out.println("results =" + results1[i]);
-		}
+        for (int k : results1) {
+            System.out.println("results =" + k);
+        }
 
-		for (int i = 0; i < results2.length; i++) {
-			System.out.println("results =" + results2[i]);
-		}
+        for (int j : results2) {
+            System.out.println("results =" + j);
+        }
 	}
 }

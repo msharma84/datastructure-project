@@ -1,4 +1,4 @@
-package com.nirvi.linkedList;
+package com.linkedList;
 
 public class LinkedList {
 
@@ -70,7 +70,5 @@ public class LinkedList {
 	    | 1  |  o-------->| 2  |  o-------->|  3 | null |
 	    +----+------+     +----+------+     +----+------+ */
 		list.printLinkedList();
-		
 	}
-
 }

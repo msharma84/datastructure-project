@@ -1,0 +1,37 @@
+package com.stringManipulation;
+
+public class ReverseDigitInString {
+
+    public static void main(String[] args) {
+
+        String str = "Java is awesome 2017 and the year is 2025";
+        ReverseDigitInString stringQuestion = new ReverseDigitInString();
+        String returnValue =  stringQuestion.reverseDigitInString(str);
+        System.out.println(returnValue);
+    }
+
+    public String reverseDigitInString(String s){
+
+        StringBuilder sb = new StringBuilder();
+        String [] str = s.split(" ");
+        for(String s1 : str){
+            if(isNumeric(s1)){
+               StringBuilder newSb = new StringBuilder(s1);
+               sb.append(newSb.reverse()).append(" ");
+            }else {
+                sb.append(s1).append(" ");
+            }
+        }
+        return sb.toString();
+    }
+
+    public boolean isNumeric(String s){
+
+        for(Character ch : s.toCharArray()){
+            if(!Character.isDigit(ch)){
+                return false;
+            }
+        }
+        return true;
+    }
+}

@@ -1,8 +1,8 @@
 /**
- * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+ * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent
+ * elements if they are in wrong order.
  * 
  * **/
-
 package com.karumanchi.sorting;
 
 public class BubbleSort {
@@ -13,7 +13,9 @@ public class BubbleSort {
 		
 		bSort.sort(arr);
 		System.out.println("Sorted Array :");
-		bSort.print(arr);
+		for(int i : arr){
+			System.out.print(" "+i);
+		}
 	}
 	
 	public void sort(int [] arr){
@@ -28,14 +30,5 @@ public class BubbleSort {
 				}
 			}
 		}
-	}
-	
-	public void print(int arr []){
-		
-		int length = arr.length;
-		for(int i =0; i < length; i++){
-			System.out.print(arr[i] +" ");
-		}
-		System.out.println();
 	}
 }

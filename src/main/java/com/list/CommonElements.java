@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * Find common element in 3 different list objects
  * List 1 contains - [1, 5, 10, 20, 40]
  * List 2 contains - [6, 7, 20, 40, 100]
- * List 3 contains - [(3, 4, 15, 20, 40, 70]
+ * List 3 contains - [3, 4, 15, 20, 40, 70]
  *
  * Output: [20, 40]
  *

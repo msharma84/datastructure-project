@@ -10,7 +10,5 @@ public class LengthOfLastWord {
 		int lastWordIndex = split.length -1;
 		int lastWordLength =  split[lastWordIndex].length();
 		System.out.println(lastWordLength);
-		
 	}
-
 }

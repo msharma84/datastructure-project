@@ -1,8 +1,9 @@
 /**
  * Selection Sort Implementation in java
  * 
- * Selection sort is one of the simplest sorting algorithm available. It sorts an array by repeatedly finding the 
- * minimum element from the unsorted part and putting it at the beginning. The array will have two part in this process.
+ * Selection sort is one of the simplest sorting algorithm available. It sorts an array by repeatedly finding
+ * the minimum element from the unsorted part and putting it at the beginning. The array will have two part
+ * in this process.
  * A subarray which is sorted and other subsorted which is yet to be sorted.
  * 
  * Time Complexity  -  O(n2) 
@@ -18,14 +19,16 @@ public class SelectionSort {
 	public static void main(String[] args) {
 		
 		SelectionSort sort = new SelectionSort();
-		int array[] = {5,2,4,1,3,6};
-		sort.sort(array);
+		int[] arr = {5,2,4,1,3,6};
+		sort.sort(arr);
 		
 		System.out.println("Sorted Array :");
-		sort.print(array);
+		for(int i : arr){
+			System.out.print(" "+i);
+		}
 	}
 	
-	public void sort(int arr[]){
+	public void sort(int[] arr){
 		
 		int length = arr.length;
 		for(int i=0 ; i < length; i++){
@@ -40,14 +43,5 @@ public class SelectionSort {
 			arr[mid_value] = arr[i];
 			arr[i] = temp;
 		}
-	}
-	
-	public void print(int arr[]){
-		
-		int length = arr.length;
-		for(int i=0 ;i < length ; i++){
-			System.out.print(arr[i]+ " ");
-		}
-		System.out.println();
 	}
 }
