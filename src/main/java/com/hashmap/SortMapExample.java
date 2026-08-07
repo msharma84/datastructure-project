@@ -23,11 +23,11 @@ public class SortMapExample {
         descMap(unsortMap);
 
         System.out.println("\nSorted Map in ascending order......");
-        Map<Integer, String> ascSortMap = new TreeMap<Integer, String>(unsortMap);
+        Map<Integer, String> ascSortMap = new TreeMap<>(unsortMap);
         descMap(ascSortMap);
 
         System.out.println("\nSorted Map in descending order......");
-        Map<Integer, String> descSortMap = new TreeMap<Integer, String>(
+        Map<Integer, String> descSortMap = new TreeMap<>(
                 (o1, o2) -> o2.compareTo(o1)
         );
         descSortMap.putAll(unsortMap);
