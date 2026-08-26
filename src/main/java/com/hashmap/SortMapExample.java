@@ -6,7 +6,7 @@ public class SortMapExample {
 
     public static void main(String[] args) {
 
-        Map<Integer, String> unsortMap = new HashMap<Integer, String>();
+        Map<Integer, String> unsortMap = new HashMap<>();
         unsortMap.put(10, "Ashraf");
         unsortMap.put(5, "Sara");
         unsortMap.put(6, "Mohamed");
