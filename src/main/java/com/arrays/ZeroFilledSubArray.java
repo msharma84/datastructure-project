@@ -14,8 +14,6 @@ public class ZeroFilledSubArray {
         for(int i = 0; i < length; i++){
             count = (nums[i] == 0) ? count+1:0;
             ans += count;
-            System.out.println(ans + " "+ count + " "+i);
         }
-        System.out.println("Total - "+ans);
     }
 }
